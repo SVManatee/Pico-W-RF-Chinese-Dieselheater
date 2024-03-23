@@ -16,7 +16,7 @@ print("Connected to WiFi")
 print("IP Address:", wlan.ifconfig()[0])
 
 # Configure the pin for the transmitter
-tx_pin = Pin(0, Pin.OUT)
+tx_pin = Pin(0, Pin.OUT) # change 0 to your chosen Pin
 
 def send_code(pulse_length, protocol, data, repetitions):
     for _ in range(repetitions):
