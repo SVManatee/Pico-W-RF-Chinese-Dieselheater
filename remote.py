@@ -8,7 +8,7 @@ led.on()
 # Connect to WiFi
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect("Bordnetz", "Graf3938#")
+wlan.connect("SSID", "PASSWORD")            # Put in your WIFI Credentials
 while not wlan.isconnected(): pass
 print(f"Connected to WiFi, IP: {wlan.ifconfig()[0]}")
 
