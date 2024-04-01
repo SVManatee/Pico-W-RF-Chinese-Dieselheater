@@ -4,7 +4,7 @@ Connect a cheap RFTransmitter to the Pico W (VCC to 3V3, DATA to Pin 16, GND to 
 
 Now after restarting, browse the Webpage of the Pico (You can see the IP in Thonny Terminal if its not known)
 You will see On/Off,+/-.
-Add the Remotecontrol to your dieselheater LCD: Push Powerbutton and Arrow down until OC shows up. Then press on Button on the Page.
+Add the Remotecontrol to your dieselheater LCD: Push Powerbutton and Arrow down until OC shows up. Then press one Button on the Page to pair it.
 The LCD should fall back in normal Mode once it succeeded.
 
 Start diesel-heater from Bed ;)
