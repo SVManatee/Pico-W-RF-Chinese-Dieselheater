@@ -45,7 +45,7 @@ def send_pulse(high_duration, low_duration):
 
 # Start web server
 s = usocket.socket(usocket.AF_INET, usocket.SOCK_STREAM)
-s.bind(('192.168.0.17', 80))
+s.bind(('0.0.0.0', 80))                                            #Put in the IP the Pico is listening on
 s.listen(5)
 
 def handle_request(conn, addr):
